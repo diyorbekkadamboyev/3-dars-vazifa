@@ -1,0 +1,23 @@
+{
+  "name": "bootstrap-sass-",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diyorbekkadamboyev/bootstrap-sass-.git"
+  },
+  "keywords": [],
+  "author": "Diyorbek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diyorbekkadamboyev/bootstrap-sass-/issues"
+  },
+  "homepage": "https://github.com/diyorbekkadamboyev/bootstrap-sass-#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
