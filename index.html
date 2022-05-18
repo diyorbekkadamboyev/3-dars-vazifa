@@ -8,6 +8,66 @@
   <title>BOOTSTRAP & SASS</title>
 </head>
 <body>
+<!-- MAIN -->
+  <main class="main">
+    <section class="hero">
+      <div class="container">
+        <h3 class="hero__heading text-center mb-5 fw-bold">Movies catalog</h3>
+        <div class="hero__wrappr d-flex justify-content-between">
+          <!-- hero-left -->
+        <div class="hero__left col-3 d-inline-block">
+          <form class="hero__form mb-5" action="https://echo.htmlacademy.ru/" method="post">
+            <div class="mb-3">
+              <input type="email" placeholder="ave" class="form-control mb-4" id="exampleInputEmail1" aria-describedby="emailHelp" name="user_name">
+            </div>
+            <div class="mb-3">
+              <input type="text" placeholder="5" class="form-control mb-4" id="exampleInputPassword1" name="user_name">
+            </div>
+            <select class="form-select mb-4" name="user_select" aria-label="Default select example">
+              <option selected>All</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
+            <select class="form-select mb-4" name="user_select" aria-label="Default select example">
+              <option selected>Rating (high to low)</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+            </select>
+
+            <button type="submit" class="btn btn-primary">Search</button>
+          </form>
+
+          <h2 class="hero__left-heading fw-bold mb-1 fs-3">Bookmarked movies</h2>
+
+          <div class="hero__left-box border border-1 rounded-1">
+            <p class="hero__left-desc m-0  m-3">Avengers:Infinity War</p>
+            <button type="button" class="btn btn-danger mt-1 ms-3 mb-3">Danger</button>
+          </div>
+
+          <div class="hero__left-box border border-1">
+            <p class="hero__left-desc m-0  m-3">Avengers:Infinity War</p>
+            <button type="button" class="btn btn-danger mt-1 ms-3 mb-3">Danger</button>
+          </div>
+
+          <div class="hero__left-box border border-1">
+            <p class="hero__left-desc m-0  m-3">Avengers:Infinity War</p>
+            <button type="button" class="btn btn-danger mt-1 ms-3 mb-3">Danger</button>
+          </div>
+        </div>
+        <!-- hero-right -->
+        <div class="hero__right col-8 d-inline-block">
+          <h4 class="hero__right-heading fw-bold">Search results: 39</h4>
+          <div class="alert alert-primary text-black" role="alert">
+            Use the form on the left to search for a movie
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+  </main>
 
   
 <script src="./js/bootstrap.bundle.js">
